@@ -45,19 +45,7 @@ The application will open at http://localhost:3000.
 ## File Structure
 
 
-.
-├── public
-│   └── images
-│       └── noimage.png      # Fallback image for articles without images
-├── src
-│   ├── components
-│   │   ├── Navbar.js        # Navbar component
-│   │   ├── NewsItem.js      # Component to display individual news articles
-│   │   └── Home.js          # Main component fetching and displaying news articles
-│   └── App.js               # Root component
-│   └── index.js             # React entry point
-├── .env                     # Environment variables
-└── README.md
+![image](https://github.com/user-attachments/assets/ef7192cb-6142-4d7b-8609-d337b9f50964)
 
 ## Usage
 ### Changing News Categories
@@ -74,7 +62,9 @@ The application will open at http://localhost:3000.
 ### Available Scripts
 
     In the project directory, you can run:
-    **npm start**
+    
+  **npm start**
+    
       Runs the app in development mode. Open http://localhost:3000 to view it in the browser.
       
   **npm run build**
@@ -93,10 +83,10 @@ REACT_APP_NEWS_API_KEY=your_newsapi_key
 
 ## Technologies Used
 
-    - **React**: Frontend framework
-    - **Bootstrap**: For responsive design
-    - **NewsAPI**: For fetching news articles
-    - **React Infinite Scroll**: For loading more articles dynamically
+     React: Frontend framework
+     Bootstrap: For responsive design
+     NewsAPI: For fetching news articles
+     React Infinite Scroll: For loading more articles dynamically
 
 ## Contributions
 
